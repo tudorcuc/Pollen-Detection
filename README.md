@@ -62,11 +62,6 @@ The program includes several key functions to perform its tasks:
 
 ## Observations
 
-### Threshold Calculation
-
-- The program calculates and stores threshold values for HSV and RGB features based on the training set.
-- These thresholds are critical for the classification process, as they define the boundaries between the pollen and non-pollen classes.
-
 ### Image Classification
 
 - Each image is classified based on how its mean HSV and RGB values compare to the calculated thresholds.
@@ -74,9 +69,5 @@ The program includes several key functions to perform its tasks:
 
 ### Accuracy
 
-- The accuracy of the classification model is calculated and displayed.
 - Higher accuracy indicates better performance of the model in distinguishing between pollen and non-pollen images.
-
-## Conclusion
-
-The program effectively classifies images into pollen and non-pollen categories using HSV and RGB color properties. By leveraging mean color values as features, it creates a simple yet effective classification model. However, there is always room for improvement. Future enhancements could include incorporating additional features such as texture, shape, or more advanced machine learning algorithms to further optimize the classification performance.
+- The accuracy of the classification model is calculated and stands at around 76%.
